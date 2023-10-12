@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no"
+    />
+    <link href="assets/images/favicon.png" rel="icon" />
+    <title>Trabalho Interdisciplinar - Documentação</title>
+    <meta
+      name="description"
+      content="Documentação do projeto da disciplina de Trabalho Interdisciplinar"
+    />
+    <meta name="author" content="Rommel Carneiro (WebTech)" />
+
+    <!-- Stylesheet ========================= -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/vendor/font-awesome/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/vendor/magnific-popup/magnific-popup.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/vendor/highlight.js/styles/github.css"
+    />
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="assets/css/stylesheet.css" />
+  </head>
+
+  <body data-spy="scroll" data-target=".idocs-navigation" data-offset="125">
+    <!-- Preloader -->
+    <div class="preloader">
+      <div class="lds-ellipsis">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+
+    <!-- Document Wrapper  =============================== -->
+    <div id="main-wrapper">
+      <!-- Header  ============================ -->
+      <header id="header" class="sticky-top">
+        <!-- Navbar -->
+        <nav class="primary-menu navbar navbar-expand-lg navbar-dropdown-dark">
+          <div class="container-fluid">
+            <!-- Sidebar Toggler -->
+            <button
+              type="button"
+              id="sidebarCollapse"
+              class="navbar-toggler d-block d-md-none"
+            >
+              <span></span><span class="w-75"></span><span class="w-50"></span>
+            </button>
+
+            <!-- Logo -->
+            <a
+              class="logo ml-md-3"
+              href="index.html"
+              title="iDocs Template"
+            ></a>
+            <span class="text-2 ml-2">v2.0</span>
+            <!-- Logo End -->
+          </div>
+        </nav>
+      </header>
+      <!-- Header End -->
+
+      <!-- Content ============================ -->
+      <main id="content">
+        <!-- Sidebar Navigation	============================ -->
+        <div class="idocs-navigation bg-light">
+          <ul class="nav flex-column">
+            <li class="nav-item">
+              <a class="nav-link active" href="#ti_intro">Introdução</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#ti_contexto">Contexto</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#ti_concepcao">Concepção</a>
+              <ul class="nav flex-column">
+                <li class="nav-item">
+                  <a class="nav-link" href="#ti_especificacoes"
+                    >Especificações</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#ti_projeto_interfaces"
+                    >Projeto de Interfaces</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#ti_metodologia">Metodologia</a>
+              <ul class="nav flex-column">
+                <li class="nav-item">
+                  <a class="nav-link" href="#ti_gestao_projeto"
+                    >Gestao do Projeto</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <ul class="nav flex-column">
+                <li class="nav-item">
+                  <a class="nav-link" href="#ti_video">Vídeo do Projeto</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#ti_funcionalidades"
+                    >Funcionalidades</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#ti_estruturas_dados"
+                    >Estruturas de Dados</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#ti_modulos_apis">Módulos e APIs</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#ti_faq">FAQ</a></li>
+            <li class="nav-item"></li>
+          </ul>
+        </div>
+
+        <!-- Docs Content ============================ -->
+        <div class="idocs-content">
+          <div class="container">
+            <!-- Introdução ============================ -->
+            <section id="ti_intro">
+              <h2>Introdução</h2>
+
+              <section id="ti_intro_info">
+                <h4>Informações Gerais</h4>
+                <div class="row">
+                  <div class="col-12">
+                    <ul class="list-unstyled">
+                      <li><strong>Projeto:</strong> Phishing Detector</li>
+                      <li>
+                        <strong>Repositório GitHub:</strong>
+                        <a
+                          href="https://github.com/PhishingDetector-PUC/PhishingDetector"
+                          >Phishing Detector</a
+                        >
+                      </li>
+                      <li>
+                        <strong>Membros da equipe:</strong>
+                        <ul>
+                          <li>
+                            <a href="https://github.com/AlanPUC"
+                              >Alan Severiano Dias de Lima</a
+                            >
+                          </li>
+                          <li>
+                            <a href="https://github.com/Emmerson-puc"
+                              >Caio Henrique Maranhão Mastrorocco</a
+                            >
+                          </li>
+                          <li>
+                            <a href="https://github.com/"
+                              >David Felix Ferreira Cruz</a
+                            >
+                          </li>
+                          <li>
+                            <a href="https://github.com/"
+                              >Emmerson Rodrigues de Paula</a
+                            >
+                          </li>
+                          <li>
+                            <a href="https://github.com/henriquefontes"
+                              >Henrique Luiz Fontes da Silva</a
+                            >
+                          </li>
+                          <li>
+                            <a href="https://github.com/"
+                              >Karina Oliveira Bicalho de Almeida</a
+                            >
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </section>
+            </section>
+            <hr class="divider" />
+
+            <!-- Contexto ============================ -->
+            <section id="ti_contexto">
+              <h2>Contexto</h2>
+              <section>
+                <h5>Problema</h5>
+                <p>
+                  A internet, apesar de ser uma ferramenta útil e informativa,
+                  também pode ser um lugar perigoso. Os ataques de phishing
+                  estão se tornando cada vez mais sofisticados e comuns,
+                  colocando em risco a segurança dos usuários comuns e até mesmo
+                  empresas. Muitas vezes, esses ataques são tão bem disfarçados
+                  que é difícil para um usuário comum identificar a ameaça.
+                </p>
+              </section>
+
+              <section>
+                <h5>Objetivos</h5>
+                <p>
+                  O software Phishing Detector está sendo desenvolvido para
+                  combater esse problema. Através da identificação e alerta
+                  sobre domínios e links maliciosos, o Phishing Detector visa
+                  aumentar a segurança dos usuários na internet, por meio da
+                  verificação de domínios e links maliciosos, permitindo que
+                  eles naveguem com confiança e tranquilidade. Ademais, temos o
+                  objetivo de direcionar esta ferramenta também para empresas,
+                  para que estas possam cadastrar seus domínios e obter
+                  visibilidade e confiabilidade através da nossa ferramenta.
+                </p>
+              </section>
+
+              <section>
+                <h5>Justificativa</h5>
+                <p>
+                  A necessidade de uma ferramenta como o Phishing Detector é
+                  evidente. Com o número crescente de pessoas utilizando a
+                  internet para uma variedade de atividades, desde compras
+                  online até operações bancárias, a segurança online nunca foi
+                  tão importante. O Phishing Detector oferece uma solução
+                  robusta, rápida e eficaz para proteger os usuários contra
+                  ameaças de phishing.
+                </p>
+              </section>
+
+              <section>
+                <h5>Público-alvo</h5>
+                <p>
+                  O Phishing Detector é destinado a todos os usuários de
+                  internet que desejam proteger suas informações pessoais e
+                  navegar na web com segurança. Isso inclui indivíduos e até
+                  mesmo empresas, que usam a internet para compras online,
+                  operações bancárias, trabalho e muito mais. Este é destinado a
+                  uma ampla gama de usuários, desde aqueles com pouco ou nenhum
+                  conhecimento prévio no assunto até os especialistas na área,
+                  por conta disso, nosso público-alvo é amplamente variado, se
+                  dedicando a todas as pessoas que desejam navegar com segurança
+                  na web.
+                </p>
+              </section>
+            </section>
+            <hr class="divider" />
+
+            <!-- Concepção ============================ -->
+            <section id="ti_concepcao">
+              <h2>Concepção</h2>
+              <p class="lead"></p>
+
+              <section id="ti_especificacoes">
+                <h4>Especificações do Projeto</h4>
+                <p>
+                  Documentação das especificações do projeto.
+                  <button
+                    type="button"
+                    class="btn btn-light btn-sm float-right"
+                    data-toggle="collapse"
+                    href="#collapseEspecificacao"
+                  >
+                    Info
+                  </button>
+                </p>
+                <div
+                  class="alert alert-warning collapse"
+                  role="alert"
+                  id="collapseEspecificacao"
+                >
+                  <p>
+                    Apresente as especificações do projeto, incluindo as
+                    histórias de usuário e os requisitos funcionais e não
+                    funcionais.
+                  </p>
+                </div>
+
+                <section>
+                  <h5>Histórias de Usuários</h5>
+                  <p>
+                    Com base na análise das personas foram identificadas as
+                    seguintes histórias de usuários:
+                  </p>
+                  <table class="table">
+                    <thead>
+                      <tr>
+                        <th scope="col">EU COMO...</th>
+                        <th scope="col">QUERO/PRECISO...</th>
+                        <th scope="col">PARA...</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">Administrador da aplicação</th>
+                        <td>
+                          Ser alertado quando uma empresa estiver se cadastrando
+                          no site
+                        </td>
+                        <td>Verificar se é um cadastro lícito</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Desenvolvedor da aplicação</th>
+                        <td>
+                          Entregar aos usuários uma aplicação simples e eficaz
+                        </td>
+                        <td>
+                          Tenham fácil acesso a uma navegação mais segura na web
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Usuário</th>
+                        <td>
+                          Haja uma verificação dos links inseridos de sites que
+                          estou visitando
+                        </td>
+                        <td>Eu poder navegar na internet com segurança</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </section>
+
+                <section>
+                  <h5>Requisitos</h5>
+                  <p>
+                    As tabelas que se seguem apresentam os requisitos funcionais
+                    e não funcionais que detalham o escopo do projeto.
+                  </p>
+
+                  <p><strong>Requisitos Funcionais</strong></p>
+                  <table class="table">
+                    <thead>
+                      <tr>
+                        <th scope="col">ID</th>
+                        <th scope="col">Descrição do Requisito</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">Verificação de URL</th>
+                        <td>
+                          O site deve ser capaz de aceitar URLs inseridas pelos
+                          usuários e passá-las para a API para verificação. Isso
+                          pode ser feito através de um campo de entrada onde os
+                          usuários podem colar ou digitar a URL que desejam
+                          verificar.
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Integração com API</th>
+                        <td>
+                          O site deve ser capaz de aceitar URLs inseridas pelos
+                          usuários e passá-las para a API para verificação. Isso
+                          pode ser feito através de um campo de entrada onde os
+                          usuários podem colar ou digitar a URL que desejam
+                          verificar.
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Apresentação dos Resultados</th>
+                        <td>
+                          Após receber a resposta da API, o site deve apresentar
+                          os resultados de forma clara e compreensível para o
+                          usuário. Isso pode incluir indicar se a URL é segura
+                          ou não, e fornecer detalhes sobre a reputação do
+                          domínio e oferecer sugestões ou ações recomendadas.
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Cadastro de Contas</th>
+                        <td>
+                          O site deve permitir que tanto empresas quanto
+                          usuários criem uma conta, fornecendo informações
+                          relevantes como nome, endereço de e-mail e senha. Isso
+                          pode ser feito através de um formulário de inscrição.
+                          Após a criação da conta, as empresas devem ter a
+                          capacidade de adicionar links e domínios confiáveis ao
+                          seu perfil. Isso pode ser feito através de uma
+                          interface de usuário dedicada onde podem inserir URLs
+                          e domínios, que são então adicionados à sua lista de
+                          sites confiáveis. Além disso, tanto as empresas quanto
+                          os usuários devem ter a capacidade de votar na
+                          confiabilidade de links e domínios. Isso pode ser
+                          implementado através de um sistema de votação onde
+                          podem dar um “upvote” para sites confiáveis ou um
+                          “downvote” para sites não confiáveis.
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+
+                  <p><strong>Requisitos Não-Funcionais</strong></p>
+                  <table class="table">
+                    <thead>
+                      <tr>
+                        <th scope="col">ID</th>
+                        <th scope="col">Descrição do Requisito</th>
+                        <th scope="col">Prioridade</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">Usabilidade</th>
+                        <td>
+                          O site deve ser fácil de usar, com uma interface
+                          intuitiva e responsiva que funciona bem em uma
+                          variedade de dispositivos e tamanhos de tela.
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Desempenho</th>
+                        <td>
+                          O site deve ser capaz de pesquisar e informar
+                          rapidamente se um link/domínio é confiável ou não.
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Privacidade</th>
+                        <td>
+                          O site deve respeitar a privacidade dos usuários,
+                          seguindo as leis e regulamentos aplicáveis sobre
+                          proteção de dados. Isso pode incluir medidas como
+                          permitir que os usuários excluam suas contas e todos
+                          os dados associados.
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </section>
+              </section>
+
+              <section id="ti_projeto_interfaces">
+                <h4>Projeto de Interface</h4>
+                <p>
+                  Artefatos relacionados com a interface e a interacão do
+                  usuário na proposta de solução.
+                </p>
+
+                <section>
+                  <h5>User/Screen Flow</h5>
+                  <p>
+                    O fluxo de usuário (User Flow) é uma técnica que permite ao
+                    desenvolvedor mapear todo fluxo de telas do site ou app.
+                    Essa técnica funciona para alinhar os caminhos e as
+                    possíveis ações que o usuário pode fazer junto com os
+                    membros de sua equipe.
+                  </p>
+                  <img
+                    class="img-fluid"
+                    src="assets/images/user-flow.png"
+                    alt="Exemplo de fluxo de usuário"
+                  />
+                </section>
+
+                <section>
+                  <h5>Wireframes</h5>
+                  <p>
+                    Os Wireframes são protótipos das telas da aplicação usados
+                    em design de interface para sugerir a estrutura de um site
+                    web e seu relacionamentos entre suas páginas. Um wireframe
+                    web é uma ilustração semelhante ao layout de elementos
+                    fundamentais na interface.
+                  </p>
+                  <p>
+                    <a
+                      href="https://www.figma.com/file/fRCVV4XssM4zFfGwTo8EMB/Phishing-Detector---wireframe?type=design&node-id=0-1&mode=design&t=QsWyjikoRQB4cflo-0"
+                      target="_blank"
+                      >Clique aqui</a
+                    >
+                    para visualizar.
+                  </p>
+                </section>
+
+                <section>
+                  <h5>Protótipo Interativo</h5>
+                  <p>
+                    O protótipo interativo apresenta o projeto de interfaces e
+                    permite ao usuário navegar pelas funcionalidades como se
+                    estivesse lidando com o software pronto.
+                  </p>
+                  <p>
+                    <a
+                      href="https://www.figma.com/file/w6MbuX3xAAxsrnpnfPcA7N/Phishing-Detector?type=design&node-id=0%3A1&mode=design&t=aFIK0Oyf26mRo5jB-1"
+                      target="_blank"
+                      >Clique aqui</a
+                    >
+                    para visualizar.
+                  </p>
+                </section>
+
+                <section>
+                  <h5>Kanban</h5>
+                  <p>
+                    A nossa equipe usa um quadro Kanban para gerenciar suas
+                    tarefas. O quadro Kanban é dividido em várias colunas, mas a
+                    priori as colunas principais são: “A Fazer”, “Em Progresso”,
+                    “Concluído” e “Entregue”. As tarefas são representadas por
+                    cartões que são movidos ao longo das colunas à medida que
+                    progridem. A ferramenta escolhida para manusear o quadro de
+                    controle de tarefas foi o Trello e o próprio GitHub.
+                  </p>
+                  <img
+                    class="img-fluid"
+                    src="assets/images/kanban.png"
+                    alt="Exemplo de fluxo de usuário"
+                  />
+                </section>
+              </section>
+            </section>
+
+            <hr class="divider" />
+
+            <!-- Metodologia ============================ -->
+            <section id="ti_metodologia">
+              <h2>Metodologia</h2>
+              <p class="lead">
+                Detalhes sobre a organização do grupo e o ferramental empregado.
+                <button
+                  type="button"
+                  class="btn btn-light btn-sm float-right"
+                  data-toggle="collapse"
+                  href="#collapseMetodologia"
+                >
+                  Info
+                </button>
+              </p>
+              <div
+                class="alert alert-warning collapse"
+                role="alert"
+                id="collapseMetodologia"
+              >
+                <p>
+                  Nesta parte do documento, você deve apresentar a metodologia
+                  adotada pelo grupo, descrevendo o processo de trabalho baseado
+                  nas metodologias ágeis, a divisão de papéis e tarefas, as
+                  ferramentas empregadas e como foi realizada agestão de
+                  configuração do projeto via GitHub.
+                </p>
+                <p>
+                  Coloque detalhes sobre o processo de Design Thinking e a
+                  implementação do Framework Scrum seguido pelo grupo. O grupo
+                  poderá fazer uso de ferramentas on-line para acompanhar o
+                  andamento do projeto, a execução das tarefas e o status de
+                  desenvolvimento da solução.
+                </p>
+              </div>
+
+              <section id="ti_gestao_projeto">
+                <h4 style="margin-bottom: 10px">Gestão do Projeto</h4>
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th scope="col">Função.</th>
+                      <th scope="col">Integrante</th>
+                      <th scope="col">Descrição</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">Scrum Master</th>
+                      <td>Karina</td>
+                      <td>
+                        Responsável por garantir que a equipe siga as práticas e
+                        princípios do Scrum. Ajuda a equipe a se auto-organizar,
+                        remove obstáculos que possam estar impedindo a equipe de
+                        alcançar seus objetivos e trabalha para melhorar a
+                        eficiência da equipe.
+                      </td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Product Owner</th>
+                      <td>Henrique</td>
+                      <td>
+                        Tem a visão do produto e trabalha para garantir que a
+                        equipe esteja trabalhando nas coisas certas com base no
+                        valor para o negócio. Ele define e prioriza o backlog do
+                        produto e trabalha em estreita colaboração com o Scrum
+                        Master e a equipe de desenvolvimento.
+                      </td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Desenvolvedor</th>
+                      <td>Caio</td>
+                      <td>
+                        Responsável pela entrega do produto, ou seja, o Phishing
+                        Detector. Tem suas habilidades pessoais que contribuem
+                        para o projeto.
+                      </td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Desenvolvedor</th>
+                      <td>David</td>
+                      <td>
+                        Responsável pela entrega do produto, ou seja, o Phishing
+                        Detector. Tem suas habilidades pessoais que contribuem
+                        para o projeto.
+                      </td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Desenvolvedor</th>
+                      <td>Alan</td>
+                      <td>
+                        Responsável pela entrega do produto, ou seja, o Phishing
+                        Detector. Tem suas habilidades pessoais que contribuem
+                        para o projeto.
+                      </td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Desenvolvedor</th>
+                      <td>Emmerson</td>
+                      <td>
+                        Responsável pela entrega do produto, ou seja, o Phishing
+                        Detector. Tem suas habilidades pessoais que contribuem
+                        para o projeto.
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </section>
+            </section>
+            <hr class="divider" />
+
+            <!-- FAQ ============================ -->
+            <section id="ti_faq">
+              <h2>FAQ</h2>
+              <p class="lead">
+                Perguntas e respostas comuns associadas ao projeto.
+              </p>
+
+              <div class="row">
+                <div class="col-lg-12">
+                  <div
+                    class="accordion accordion-alterate arrow-right"
+                    id="popularTopics"
+                  >
+                    <div class="card">
+                      <div class="card-header" id="heading1">
+                        <h5 class="mb-0">
+                          <a
+                            href="#"
+                            class="collapsed"
+                            data-toggle="collapse"
+                            data-target="#collapse1"
+                            aria-expanded="false"
+                            aria-controls="collapse1"
+                            >Onde encontrar os outros arquivos relacionados à
+                            documentação?</a
+                          >
+                        </h5>
+                      </div>
+                      <div
+                        id="collapse1"
+                        class="collapse"
+                        aria-labelledby="heading1"
+                        data-parent="#popularTopics"
+                      >
+                        <div class="card-body">
+                          <p>
+                            Matriz CSD:
+                            <a
+                              href="https://drive.google.com/file/d/1XlNU4Vp6SXCYkQ8WnbCVzi--OmLnwDrx/view?usp=drive_link"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              >Clique aqui</a
+                            >
+                          </p>
+                          <p>
+                            Mapa Stakeholders:
+                            <a
+                              href="https://drive.google.com/file/d/1XlNU4Vp6SXCYkQ8WnbCVzi--OmLnwDrx/view?usp=drive_link"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              >Clique aqui</a
+                            >
+                          </p>
+                          <p>
+                            Diagrama de Personas:
+                            <a
+                              href="https://drive.google.com/drive/folders/1Z_ERnrPLx7k5hyZmBwyzLLijewlZEO5b?usp=drive_link"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              >Clique aqui</a
+                            >
+                          </p>
+                          <p>
+                            Mural de possibilidades e mapa de priorização:
+                            <a
+                              href="https://miro.com/welcomeonboard/Q2J6MmdPV2tjb3hKbHlMc0dGQ09Vd0xGU0lydGd0MDlhdUUzUENmOEpycTB6Z3VxZ2VPUU1GNzBVVnp4WGtsMXwzNDU4NzY0NTY0MTI0MjY1OTYyfDI=?share_link_id=268164832107"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              >Clique aqui</a
+                            >
+                          </p>
+                          <p>
+                            Fluxo de usuário:
+                            <a
+                              href="https://miro.com/welcomeonboard/YktCSWNKaHVtUGdwbHJqMXFDUDc1SWdVRG1ReHlVMks4UDk2aEZ5a2hBUzlva0VvQmdrbFZBdDN2RlBEd241cXwzNDU4NzY0NTY0MTI0MjY1OTYyfDI=?share_link_id=387680467318"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              >Clique aqui</a
+                            >
+                          </p>
+                          <p>
+                            Wireframe:
+                            <a
+                              href="https://www.figma.com/file/fRCVV4XssM4zFfGwTo8EMB/Phishing-Detector---wireframe?type=design&node-id=0%3A1&mode=design&t=70WFPbl7MjEEufL9-1"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              >Clique aqui</a
+                            >
+                          </p>
+                          <p>
+                            Protótipo Interativo:
+                            <a
+                              href="https://www.figma.com/file/w6MbuX3xAAxsrnpnfPcA7N/Phishing-Detector?type=design&mode=design"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              >Clique aqui</a
+                            >
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <div class="card-header" id="heading2">
+                        <h5 class="mb-0">
+                          <a
+                            href="#"
+                            class="collapsed"
+                            data-toggle="collapse"
+                            data-target="#collapse2"
+                            aria-expanded="false"
+                            aria-controls="collapse2"
+                            >Preciso me cadastrar para fazer uma consulta no
+                            site de vocês?</a
+                          >
+                        </h5>
+                      </div>
+                      <div
+                        id="collapse2"
+                        class="collapse"
+                        aria-labelledby="heading2"
+                        data-parent="#popularTopics"
+                      >
+                        <div class="card-body">
+                          Não é necessário se cadastrar em nosso site para
+                          consultar links ou domínios. Você tem a liberdade de
+                          realizar quantas consultas desejar sem a necessidade
+                          de cadastro.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <hr class="divider" />
+          </div>
+        </div>
+        <!-- Content end -->
+      </main>
+
+      <!-- Footer
+  ============================ -->
+      <footer id="footer" class="section bg-dark footer-text-light">
+        <div class="container">
+          <p class="text-center">
+            <strong>Trabalho Interdisciplinar - ICEI PUC Minas</strong
+            ><br />Modelo adaptado de
+            <a
+              href="http://www.harnishdesign.net/idocs-one-page-documentation-html-template/"
+              >iDocs</a
+            >
+            - Design &amp; Develop by
+            <a
+              class="btn-link"
+              target="_blank"
+              href="http://www.harnishdesign.net/"
+              >HarnishDesign</a
+            >
+          </p>
+        </div>
+      </footer>
+      <!-- Footer end -->
+
+      <!-- Document Wrapper end -->
+    </div>
+
+    <!-- Back To Top -->
+    <a
+      id="back-to-top"
+      data-toggle="tooltip"
+      title="Topo"
+      href="javascript:void(0)"
+      ><i class="fa fa-chevron-up"></i
+    ></a>
+
+    <!-- JavaScript ============================ -->
+    <script src="assets/vendor/jquery/jquery.min.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Highlight JS -->
+    <script src="assets/vendor/highlight.js/highlight.min.js"></script>
+    <!-- Easing -->
+    <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+    <!-- Magnific Popup -->
+    <script src="assets/vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <!-- Custom Script -->
+    <script src="assets/js/theme.js"></script>
+  </body>
+</html>
