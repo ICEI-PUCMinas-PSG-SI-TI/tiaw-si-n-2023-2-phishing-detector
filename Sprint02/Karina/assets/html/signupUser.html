@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="/assets/css/signupUser.css">
+    <title>CADASTRO USUÁRIO</title>
+</head>
+<body>
+    <form id = "formSignUpUser">
+        <div class="main-login">       
+            <div class="login">
+                <div class="linkfield">
+                    <a href="/assets/html/signupUser.html">Usuário</a> <a href="/assets/html/signupCompany.html" id="linkCompany">Empresa</a>
+                </div>
+                <div class="card-login">
+                    <h1>CADASTRO</h1>
+                    <div class="textfield">
+                        <input type="text" id="usuario" placeholder="Usuário">
+                    </div>
+                    <div class="textfield">
+                        <input type="text" id="nome" placeholder="Nome">
+                    </div>
+                    <a>Informe data de nascimento:</a>
+                    <div class="textfield">
+                        <input type="date" id="idade" placeholder="Data Nascimento">
+                    </div>
+                    <div class="textfield">
+                        <input type="url" id="foto" placeholder="Link para foto de perfil">
+                    </div>
+                    <div class="textfield">
+                        <input type="tel" id="telefone" placeholder="Informe telefone de contato"> 
+                    </div>
+                    <div class="textfield">
+                        <input type="email" id="email" placeholder="Email">
+                    </div>
+                    <div class="textfield">
+                        <input type="password" id="senha" placeholder="Senha">
+                    </div>
+                    <div class="center-content">
+                        <p>Já possui conta?<a href="/signin.html"> Clique aqui</a></p>
+                    </div>
+                    <button type="submit" class="btn-login">CADASTRAR</button>
+                </div>
+       </div> 
+    </div>
+</form>
+    <script src="/assets/js/api.js"></script>
+    <script src="/assets/js/signupUser.js"></script>
+</body>
+</html>

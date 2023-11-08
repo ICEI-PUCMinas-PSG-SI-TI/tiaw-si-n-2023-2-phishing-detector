@@ -1,0 +1,5 @@
+/*NÃO FIZ POR QUESTÕES DE SEGURANÇA, ESTAMOS PENSANDO COMO IMPLEMENTAR A PARTE DE RECUPERAÇÃO DE SENHA COM SEGURANÇA, NÃO IMPLEMENTADO POIS A PESQUISA PARA ESSA IMPLEMENTAÇÃO ESTÁ SENDO FEITA ALÉM DA
+MATÉRIA ENSINADA EM SALA DE AULA...*/
+document.querySelector('.btn-login').addEventListener('click', function() {
+    window.location.href = '../../signin.html';
+});
