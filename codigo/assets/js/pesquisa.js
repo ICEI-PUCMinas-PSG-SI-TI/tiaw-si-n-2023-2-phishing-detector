@@ -222,7 +222,9 @@ async function carregarPagina() {
   // Define as opções da requisição HTTP
   const options = {
     method: "GET",
+    mode: "cors",
     headers: {
+      "Access-Control-Allow-Origin": "*",
       accept: "application/json",
       "x-apikey":
         "2c8dcd68b374477e0325b2393bb7e4077d9c99d56467ff7ef2f19e532eca7bc2",
@@ -230,7 +232,9 @@ async function carregarPagina() {
   };
 
   // Configura a URL de busca na API
-  var urlBusca = "https://www.virustotal.com/api/v3/domains/" + dominio;
+  var urlBusca =
+    "https://cors-reverse-proxy-d1cp.onrender.com/https://www.virustotal.com/api/v3/domains/" +
+    dominio;
 
   // Realizar a requisição Fetch
   const req = await fetch(urlBusca, options);
